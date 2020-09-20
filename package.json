@@ -1,0 +1,28 @@
+{
+  "name": "newton",
+  "version": "1.0.0",
+  "description": "A micro-blog for quirky facts",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhikBoruah/Newton.git"
+  },
+  "keywords": [
+    "ntn"
+  ],
+  "author": "Abhik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhikBoruah/Newton/issues"
+  },
+  "homepage": "https://github.com/AbhikBoruah/Newton#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.6"
+  }
+}
