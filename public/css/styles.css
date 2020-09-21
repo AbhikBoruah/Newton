@@ -1,0 +1,39 @@
+body{
+    margin: 0 0 55px 0;
+}
+.nav{
+    z-index: 50;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    background-color: black;
+    display: flex;
+    overflow-x: auto;
+
+}
+.navlink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow-x: hidden;
+    white-space: nowrap;
+    font-family:  Helvetica, sans-serif;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in-out ;
+
+}
+.navlink:hover{
+    background-color: #ffffff;
+    text-decoration: none;
+    color: purple;
+}
+a:active{
+    color: purple;
+}
